@@ -4,35 +4,34 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:id="@+id/ll_contain"
     tools:context=".MainActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="图片"
-            />
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="租房"
-            />
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="公司"
-            />
-        <Button
-            android:id="@+id/button3"
+            android:id="@+id/button_builder"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="电脑/builder"
             />
+        <Button
+            android:id="@+id/button_builder1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="弹窗/builder"
+            />
+        <Button
+            android:id="@+id/button_builder2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自定义弹窗/builder"
+            />
     </LinearLayout>
-
+<com.example.zjbapplication.builder.view.CustomView
+    android:id="@+id/customView"
+    android:layout_width="match_parent"
+    android:visibility="gone"
+    android:layout_height="match_parent"/>
 </LinearLayout>
