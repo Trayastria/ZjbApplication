@@ -9,6 +9,7 @@ import android.view.View;
 import com.example.zjbapplication.builder.activity.BuilderActivity;
 import com.example.zjbapplication.houserenting.Tennat;
 import com.example.zjbapplication.imageloader.activity.ImageActivity;
+import com.example.zjbapplication.interview.InterViewActivity;
 import com.example.zjbapplication.singleton.TestCom;
 
 
@@ -22,6 +23,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button1).setOnClickListener(this);
         findViewById(R.id.button2).setOnClickListener(this);
         findViewById(R.id.button3).setOnClickListener(this);
+        findViewById(R.id.btn_interview).setOnClickListener(this);
     }
 
     @Override
@@ -42,6 +44,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.button3:
                 Intent intent1 = new Intent(this, BuilderActivity.class);
                 startActivity(intent1);
+                break;
+            case R.id.btn_interview:
+                Intent intent_interview = new Intent(this, InterViewActivity.class);
+                startActivity(intent_interview);
                 break;
         }
     }
