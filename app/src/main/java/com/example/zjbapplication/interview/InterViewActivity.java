@@ -10,6 +10,8 @@ import android.os.Messenger;
 import android.view.View;
 
 import com.example.zjbapplication.R;
+import com.example.zjbapplication.interview.handler.MyHandler;
+import com.example.zjbapplication.interview.handler.TwoThread;
 import com.example.zjbapplication.interview.testservice.MyBinderService;
 import com.example.zjbapplication.interview.testservice.MyIntentService;
 import com.example.zjbapplication.interview.testservice.MyService;
@@ -42,6 +44,9 @@ public class InterViewActivity extends Activity implements View.OnClickListener 
 
         findViewById(R.id.button_bind_service).setOnClickListener(this);
         findViewById(R.id.button_unbind_service).setOnClickListener(this);
+
+        findViewById(R.id.button_handler).setOnClickListener(this);
+        findViewById(R.id.button_handler_1).setOnClickListener(this);
     }
 
     @Override
@@ -79,6 +84,15 @@ public class InterViewActivity extends Activity implements View.OnClickListener 
                     isServiceBind = false;
                 }
 
+                break;
+            case R.id.button_handler:
+                MyHandler myHandler = new MyHandler(this);
+
+                myHandler.sendMsg();
+                break;
+            case R.id.button_handler_1:
+                TwoThread twoThread = new TwoThread(this);
+                twoThread.handlerDemoByTwoWorkThread();
                 break;
         }
     }
