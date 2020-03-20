@@ -9,7 +9,7 @@ import androidx.annotation.NonNull;
 
 /**
  * Created by zhaojiangbo on 2020/3/20 10:37
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class MyHandler {

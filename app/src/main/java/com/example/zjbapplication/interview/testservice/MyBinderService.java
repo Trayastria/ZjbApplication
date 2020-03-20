@@ -10,7 +10,7 @@ import androidx.annotation.Nullable;
 
 /**
  * Created by zhaojiangbo on 2020/3/18 17:37
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class MyBinderService extends Service {

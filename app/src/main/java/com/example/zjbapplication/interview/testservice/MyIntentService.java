@@ -7,7 +7,7 @@ import androidx.annotation.Nullable;
 
 /**
  * Created by zhaojiangbo on 2020/3/18 18:25
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class MyIntentService extends IntentService {

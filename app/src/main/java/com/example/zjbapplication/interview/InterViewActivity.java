@@ -21,7 +21,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * Created by zhaojiangbo on 2020/3/18 16:18
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class InterViewActivity extends Activity implements View.OnClickListener {

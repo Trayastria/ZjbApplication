@@ -2,7 +2,7 @@ package com.example.zjbapplication.interview.stringAAAstringbufferAAAstringbuild
 
 /**
  * Created by zhaojiangbo on 2020/3/20 19:55
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class TestString {

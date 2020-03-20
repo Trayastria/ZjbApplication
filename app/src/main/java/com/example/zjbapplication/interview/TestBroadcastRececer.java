@@ -10,7 +10,7 @@ import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 /**
  * Created by zhaojiangbo on 2020/3/18 15:43
- * DOU BAN：88445710
+ * hu：
  * FUNCTION : ...
  */
 public class TestBroadcastRececer {
