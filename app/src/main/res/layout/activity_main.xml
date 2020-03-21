@@ -33,13 +33,27 @@
             android:layout_height="wrap_content"
             android:text="电脑/builder"
             />
-
+    </LinearLayout>
+    <Button
+        android:id="@+id/btn_interview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="面试"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
         <Button
-            android:id="@+id/btn_interview"
+            android:id="@+id/btn_mvp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="面试"
-            />
+            android:text="mvp"/>
+        <Button
+            android:id="@+id/btn_mvptwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="mvptwo"/>
     </LinearLayout>
+
 
 </LinearLayout>

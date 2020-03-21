@@ -26,6 +26,11 @@
         <activity android:name=".imageloader.activity.ImageActivity"/>
         <activity android:name=".builder.activity.BuilderActivity"/>
         <activity android:name=".interview.InterViewActivity"/>
+        <activity android:name=".mvp.MVPActivity"/>
+        <activity android:name=".mvp.MvpActivitya"/>
+
+
+
         <service android:name=".interview.testservice.MyService"/>
         <service android:name=".interview.testservice.MyIntentService"/>
         <service android:name=".interview.testservice.MyBinderService"/>

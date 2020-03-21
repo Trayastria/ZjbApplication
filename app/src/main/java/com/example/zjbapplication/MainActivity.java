@@ -10,6 +10,8 @@ import com.example.zjbapplication.builder.activity.BuilderActivity;
 import com.example.zjbapplication.houserenting.Tennat;
 import com.example.zjbapplication.imageloader.activity.ImageActivity;
 import com.example.zjbapplication.interview.InterViewActivity;
+import com.example.zjbapplication.mvp.MVPActivity;
+import com.example.zjbapplication.mvp.MvpActivitya;
 import com.example.zjbapplication.singleton.TestCom;
 
 
@@ -24,6 +26,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.button2).setOnClickListener(this);
         findViewById(R.id.button3).setOnClickListener(this);
         findViewById(R.id.btn_interview).setOnClickListener(this);
+        findViewById(R.id.btn_mvp).setOnClickListener(this);
+        findViewById(R.id.btn_mvptwo).setOnClickListener(this);
     }
 
     @Override
@@ -48,6 +52,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_interview:
                 Intent intent_interview = new Intent(this, InterViewActivity.class);
                 startActivity(intent_interview);
+                break;
+            case R.id.btn_mvp:
+                Intent intent_mvp = new Intent(this, MVPActivity.class);
+                startActivity(intent_mvp);
+                break;
+            case R.id.btn_mvptwo:
+                Intent intent_mvptwo = new Intent(this, MvpActivitya.class);
+                startActivity(intent_mvptwo);
                 break;
         }
     }
