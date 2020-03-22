@@ -6,6 +6,7 @@ import com.example.zjbapplication.R;
 import com.example.zjbapplication.mvp3.base.BaseMvpActivity;
 import com.example.zjbapplication.testvlayout.adapter.MyGoodsAdapter;
 import com.example.zjbapplication.testvlayout.adapter.MyInterViewAdapter;
+import com.example.zjbapplication.testvlayout.adapter.TestAdapter;
 import com.example.zjbapplication.testvlayout.bean.MyGoodsBean;
 import com.example.zjbapplication.testvlayout.presenter.InterViewPresenter;
 import com.example.zjbapplication.testvlayout.view.InterViewInter;
@@ -25,8 +26,9 @@ public class InterViewActivity extends BaseMvpActivity<InterViewInter, InterView
     private DelegateAdapter delegateAdapter;
     private VirtualLayoutManager layoutManager;
 
-    private MyGoodsAdapter adapter;
+    private MyGoodsAdapter myGoodsAdapter;
     private MyInterViewAdapter interViewAdapter;
+    private TestAdapter testAdapter;
 
     @Override
     protected InterViewPresenter creatPresenter() {
@@ -56,17 +58,30 @@ public class InterViewActivity extends BaseMvpActivity<InterViewInter, InterView
         interViewAdapter = new MyInterViewAdapter(this);
         delegateAdapter.addAdapter(interViewAdapter);
 
-        adapter = new MyGoodsAdapter(this);
-        delegateAdapter.addAdapter(adapter);
+        testAdapter = new TestAdapter(this);
+        delegateAdapter.addAdapter(testAdapter);
+
+        myGoodsAdapter = new MyGoodsAdapter(this);
+        delegateAdapter.addAdapter(myGoodsAdapter);
 
         mPresenter.getMyGoodsData();
+        mPresenter.getMyGoodsData2();
 
     }
 
     @Override
     public void setMyGoodsData(List<MyGoodsBean> goodsBeans) {
-        if (adapter != null && goodsBeans != null){
-            adapter.setGoodsBeans(goodsBeans);
+        if (myGoodsAdapter != null && goodsBeans != null){
+            myGoodsAdapter.setGoodsBeans(goodsBeans);
         }
+    }
+
+    @Override
+    public void setMyTestData(List<MyGoodsBean> goodsBeans) {
+        if (testAdapter == null || goodsBeans == null){
+            return;
+        }
+
+        testAdapter.setDataResource(goodsBeans);
     }
 }

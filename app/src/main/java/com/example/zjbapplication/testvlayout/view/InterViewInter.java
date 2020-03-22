@@ -16,4 +16,6 @@ public interface InterViewInter extends BaseView {
      * @param goodsBeans
      */
     void setMyGoodsData(List<MyGoodsBean> goodsBeans);
+
+    void setMyTestData(List<MyGoodsBean> goodsBeans);
 }

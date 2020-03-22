@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="public_space_170px">86dp</dimen>
+    <dimen name="public_space_19px">9.5dp</dimen>
+    <dimen name="public_space_177px">88.5dp</dimen>
+    <dimen name="public_space_139px">69.5dp</dimen>
+    <dimen name="public_space_133px">66.5dp</dimen>
+
+    <dimen name="public_space_115px">57.5dp</dimen>
+    <dimen name="public_space_52px">26dp</dimen>
+    <dimen name="public_space_800px">400dp</dimen>
+    <dimen name="public_space_526px">263dp</dimen>
+    <dimen name="public_space_292px">146dp</dimen>
+
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="public_space_630px">315dp</dimen>
+    <dimen name="public_space_1141px">570.5dp</dimen>
+    <dimen name="public_space_393px">196.5dp</dimen>
+    <dimen name="public_space_984px">492dp</dimen>
+    <dimen name="public_space_895px">447.5dp</dimen>
+    <dimen name="public_space_1055px">527.5dp</dimen>
+    <dimen name="public_space_1191px">595.5dp</dimen>
+    <dimen name="public_space_633px">316.5dp</dimen>
+    <dimen name="public_space_724px">362dp</dimen>
+    <dimen name="public_space_1231px">615.5dp</dimen>
+    <dimen name="public_space_935px">467.5dp</dimen>
+    <dimen name="public_space_254px">127dp</dimen>
+    <dimen name="public_space_553px">276.5dp</dimen>
+
+    <dimen name="public_space_118px">59dp</dimen>
+    <dimen name="public_space_1px">0.5dp</dimen>
+    <dimen name="public_space_10dp">10dp</dimen>
+    <dimen name="public_space_45dp">45dp</dimen>
+    <dimen name="public_space_21dp">21dp</dimen>
+    <dimen name="public_space_6dp">6dp</dimen>
+    <dimen name="public_space_15dp">15dp</dimen>
+    <dimen name="public_space_60dp">60dp</dimen>
+    <dimen name="public_space_12dp">12dp</dimen>
+    <dimen name="public_space_8dp">8dp</dimen>
+    <dimen name="public_space_9dp">9dp</dimen>
+    <dimen name="public_space_100dp">100dp</dimen>
+    <dimen name="public_space_13dp">13dp</dimen>
+    <dimen name="public_space_5dp">5dp</dimen>
+    <dimen name="public_space_270dp">270dp</dimen>
+    <dimen name="public_space_2px">1dp</dimen>
+    <dimen name="public_space_4px">2dp</dimen>
+    <dimen name="public_space_6px">3dp</dimen>
+    <dimen name="public_space_10px">5dp</dimen>
+    <dimen name="public_space_12px">6dp</dimen>
+    <dimen name="public_space_16px">8dp</dimen>
+    <dimen name="public_space_18px">9dp</dimen>
+    <dimen name="public_space_22px">11dp</dimen>
+    <dimen name="public_space_24px">12dp</dimen>
+    <dimen name="public_space_26px">13dp</dimen>
+    <dimen name="public_space_28px">14dp</dimen>
+    <dimen name="public_space_30px">15dp</dimen>
+    <dimen name="public_space_36px">18dp</dimen>
+    <dimen name="public_space_40px">20dp</dimen>
+    <dimen name="public_space_42px">21dp</dimen>
+    <dimen name="public_space_44px">22dp</dimen>
+    <dimen name="public_space_48px">24dp</dimen>
+    <dimen name="public_space_56px">28dp</dimen>
+    <dimen name="public_space_60px">30dp</dimen>
+    <dimen name="public_space_72px">36dp</dimen>
+    <dimen name="public_space_76px">38dp</dimen>
+    <dimen name="public_space_78px">39dp</dimen>
+    <dimen name="public_space_90px">45dp</dimen>
+    <dimen name="public_space_120px">60dp</dimen>
+    <dimen name="public_space_150px">75dp</dimen>
+    <dimen name="public_space_180px">90dp</dimen>
+    <dimen name="public_space_244px">122dp</dimen>
+    <dimen name="public_space_328px">164dp</dimen>
+    <dimen name="public_space_420px">210dp</dimen>
+    <dimen name="public_space_480px">240dp</dimen>
+    <dimen name="public_space_540px">270dp</dimen>
+    <dimen name="public_space_560px">280dp</dimen>
+    <dimen name="public_space_580px">290dp</dimen>
+    <dimen name="public_space_650px">325dp</dimen>
+    <dimen name="public_space_424px">212dp</dimen>
+
+
+    <dimen name="public_space_20px_sp">10sp</dimen>
+    <dimen name="public_space_22px_sp">11sp</dimen>
+    <dimen name="public_space_24px_sp">12sp</dimen>
+    <dimen name="public_space_28px_sp">14sp</dimen>
+    <dimen name="public_space_30px_sp">15sp</dimen>
+    <dimen name="public_space_32px_sp">16sp</dimen>
+    <dimen name="public_space_34px_sp">17sp</dimen>
+    <dimen name="public_space_36px_sp">18sp</dimen>
+    <dimen name="public_space_46px_sp">23sp</dimen>
+
+    
+    <dimen name="member_text_size_100px">50sp</dimen>
+
+    <dimen name="public_space_20px">10dp</dimen>
+</resources>

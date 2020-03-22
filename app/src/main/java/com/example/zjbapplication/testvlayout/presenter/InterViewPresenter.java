@@ -42,4 +42,16 @@ public class InterViewPresenter implements IBasePresenter<InterViewInter> {
         }
 
     }
+
+    public void getMyGoodsData2(){
+        List<MyGoodsBean> goodsBeans = new ArrayList<>();
+        for (int i = 0; i<16; i++){
+            MyGoodsBean myGoodsBean = new MyGoodsBean();
+            myGoodsBean.setTitle("第"+i);
+            goodsBeans.add(myGoodsBean);
+        }
+        if (interViewInter != null && !interViewInter.isFinishing()){
+            interViewInter.setMyTestData(goodsBeans);
+        }
+    }
 }
