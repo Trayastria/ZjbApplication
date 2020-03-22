@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         findViewById(R.id.btn_mvp).setOnClickListener(this);
         findViewById(R.id.btn_mvptwo).setOnClickListener(this);
         findViewById(R.id.btn_mvp_three).setOnClickListener(this);
+        findViewById(R.id.btn_interview2).setOnClickListener(this);
     }
 
     @Override
@@ -66,6 +67,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             case R.id.btn_mvp_three:
                 Intent intent_mvpthree = new Intent(this, Mvp3Activity.class);
                 startActivity(intent_mvpthree);
+                break;
+            case R.id.btn_interview2:
+                Intent intent_interview_2 = new Intent(this, com.example.zjbapplication.testvlayout.activity.InterViewActivity.class);
+                startActivity(intent_interview_2);
+                break;
+            default:
                 break;
         }
     }

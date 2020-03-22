@@ -6,59 +6,73 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="图片"
-            />
-        <Button
-            android:id="@+id/button1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="租房"
-            />
-        <Button
-            android:id="@+id/button2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="公司"
-            />
-        <Button
-            android:id="@+id/button3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="电脑/builder"
-            />
-    </LinearLayout>
     <Button
         android:id="@+id/btn_interview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="面试"
-        />
+        android:text="面试" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="图片" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="租房" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="公司" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电脑/builder" />
+    </LinearLayout>
+
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/btn_mvp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="mvp"/>
+            android:text="mvp" />
+
         <Button
             android:id="@+id/btn_mvptwo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="mvptwo"/>
+            android:text="mvptwo" />
+
         <Button
             android:id="@+id/btn_mvp_three"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="mvp3"/>
+            android:text="mvp3" />
     </LinearLayout>
 
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_interview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="面试2" />
+    </LinearLayout>
 
 </LinearLayout>

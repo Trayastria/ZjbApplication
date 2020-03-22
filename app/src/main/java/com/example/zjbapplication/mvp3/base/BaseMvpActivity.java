@@ -18,6 +18,7 @@ public abstract class BaseMvpActivity<V extends IBaseView, P extends IBasePresen
         setContentView(getLayoutId());
         this.mPresenter = creatPresenter();
         initView();
+        initData();
         initAction();
     }
 
@@ -26,6 +27,10 @@ public abstract class BaseMvpActivity<V extends IBaseView, P extends IBasePresen
     protected abstract int getLayoutId();
 
     protected void initView(){
+
+    }
+
+    protected void initData(){
 
     }
 
