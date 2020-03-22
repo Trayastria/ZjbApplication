@@ -1,8 +1,9 @@
 package com.example.zjbapplication.testvlayout.presenter;
 
-import com.example.zjbapplication.mvp3.base.IBasePresenter;
 import com.example.zjbapplication.testvlayout.bean.MyGoodsBean;
+import com.example.zjbapplication.testvlayout.model.InterViewModel;
 import com.example.zjbapplication.testvlayout.view.InterViewInter;
+import com.zjb.zjbbaseframework.common.mvp.IBasePresenter;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -14,9 +15,11 @@ import java.util.List;
  */
 public class InterViewPresenter implements IBasePresenter<InterViewInter> {
     private InterViewInter interViewInter;
+    private InterViewModel model;
 
     public InterViewPresenter(InterViewInter interViewInter) {
         attachView(interViewInter);
+        model = new InterViewModel(this);
     }
 
     @Override
@@ -31,25 +34,21 @@ public class InterViewPresenter implements IBasePresenter<InterViewInter> {
 
 
     public void getMyGoodsData(){
-        List<MyGoodsBean> goodsBeans = new ArrayList<>();
-        for (int i = 0; i<50; i++){
-            MyGoodsBean myGoodsBean = new MyGoodsBean();
-            myGoodsBean.setTitle("这是第"+i+"条标题");
-            goodsBeans.add(myGoodsBean);
-        }
-        if (interViewInter != null && !interViewInter.isFinishing()){
-            interViewInter.setMyGoodsData(goodsBeans);
-        }
+        model.getMyGoodsData();
 
     }
 
-    public void getMyGoodsData2(){
-        List<MyGoodsBean> goodsBeans = new ArrayList<>();
-        for (int i = 0; i<16; i++){
-            MyGoodsBean myGoodsBean = new MyGoodsBean();
-            myGoodsBean.setTitle("第"+i);
-            goodsBeans.add(myGoodsBean);
+    public void setMyGoodsData(List<MyGoodsBean> goodsBeans){
+        if (interViewInter != null && !interViewInter.isFinishing()){
+            interViewInter.setMyGoodsData(goodsBeans);
         }
+    }
+
+    public void getMyGoodsData2(){
+       model.getMyGoodsData2();
+    }
+
+    public void updataMyTestData(List<MyGoodsBean> goodsBeans){
         if (interViewInter != null && !interViewInter.isFinishing()){
             interViewInter.setMyTestData(goodsBeans);
         }

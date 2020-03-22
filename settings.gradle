@@ -1,2 +1,3 @@
 rootProject.name='ZjbApplication'
 include ':app'
+include ':zjbbaseframework'

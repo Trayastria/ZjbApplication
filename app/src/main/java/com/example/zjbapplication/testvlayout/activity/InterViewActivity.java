@@ -3,13 +3,13 @@ package com.example.zjbapplication.testvlayout.activity;
 import com.alibaba.android.vlayout.DelegateAdapter;
 import com.alibaba.android.vlayout.VirtualLayoutManager;
 import com.example.zjbapplication.R;
-import com.example.zjbapplication.mvp3.base.BaseMvpActivity;
 import com.example.zjbapplication.testvlayout.adapter.MyGoodsAdapter;
 import com.example.zjbapplication.testvlayout.adapter.MyInterViewAdapter;
 import com.example.zjbapplication.testvlayout.adapter.TestAdapter;
 import com.example.zjbapplication.testvlayout.bean.MyGoodsBean;
 import com.example.zjbapplication.testvlayout.presenter.InterViewPresenter;
 import com.example.zjbapplication.testvlayout.view.InterViewInter;
+import com.zjb.zjbbaseframework.common.BaseMvpActivity;
 
 import java.util.List;
 

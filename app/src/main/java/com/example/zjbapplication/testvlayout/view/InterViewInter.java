@@ -1,7 +1,7 @@
 package com.example.zjbapplication.testvlayout.view;
 
-import com.example.zjbapplication.mvp3.base.BaseView;
 import com.example.zjbapplication.testvlayout.bean.MyGoodsBean;
+import com.zjb.zjbbaseframework.common.mvp.BaseView;
 
 import java.util.List;
 
