@@ -3,7 +3,7 @@ package com.example.zjbapplication.mvp;
 /**
  * Created by zhaojiangbo on 2020/3/20 21:17
  * ...
- * FUNCTION : ...
+ * FUNCTION : ...r
  */
 public class Article {
     private String title;
