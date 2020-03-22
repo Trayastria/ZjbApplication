@@ -27,7 +27,8 @@
         <activity android:name=".builder.activity.BuilderActivity"/>
         <activity android:name=".interview.InterViewActivity"/>
         <activity android:name=".mvp.MVPActivity"/>
-        <activity android:name=".mvp.MvpActivitya"/>
+        <activity android:name=".mvp2.MvpActivitya"/>
+        <activity android:name=".mvp3.Mvp3Activity"/>
 
 
 

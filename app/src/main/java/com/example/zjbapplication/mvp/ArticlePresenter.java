@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.Log;
 
-import com.example.zjbapplication.mvp.base.BasePresenter;
 import com.example.zjbapplication.mvp.model.ArticleModel;
 
 import java.lang.ref.WeakReference;

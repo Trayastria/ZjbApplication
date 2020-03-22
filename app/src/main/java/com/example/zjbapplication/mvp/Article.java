@@ -2,7 +2,7 @@ package com.example.zjbapplication.mvp;
 
 /**
  * Created by zhaojiangbo on 2020/3/20 21:17
- * DOU BAN：88445710
+ * ...
  * FUNCTION : ...
  */
 public class Article {
