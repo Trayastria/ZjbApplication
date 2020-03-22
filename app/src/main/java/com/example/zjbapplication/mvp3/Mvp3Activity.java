@@ -4,9 +4,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.zjbapplication.R;
-import com.example.zjbapplication.mvp3.base.BaseMvpActivity;
 import com.example.zjbapplication.mvp3.presenter.MvpPresenter;
 import com.example.zjbapplication.mvp3.view.MvpView;
+import com.zjb.zjbbaseframework.common.BaseMvpActivity;
 
 /**
  * Created by zhaojiangbo on 2020/3/21 19:38

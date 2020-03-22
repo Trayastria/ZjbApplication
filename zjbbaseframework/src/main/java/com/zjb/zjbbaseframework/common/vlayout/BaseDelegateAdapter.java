@@ -1,4 +1,4 @@
-package com.example.zjbapplication.mvp3.base;
+package com.zjb.zjbbaseframework.common.vlayout;
 
 import android.content.Context;
 import android.view.LayoutInflater;

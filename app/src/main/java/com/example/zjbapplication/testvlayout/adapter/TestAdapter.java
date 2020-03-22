@@ -6,10 +6,9 @@ import android.view.ViewGroup;
 import com.alibaba.android.vlayout.LayoutHelper;
 import com.alibaba.android.vlayout.layout.GridLayoutHelper;
 import com.example.zjbapplication.R;
-import com.example.zjbapplication.mvp3.base.BaseDelegateAdapter;
-import com.example.zjbapplication.testvlayout.adapter.holder.MyGoodsViewHolder;
 import com.example.zjbapplication.testvlayout.adapter.holder.TestViewHolder;
 import com.example.zjbapplication.testvlayout.bean.MyGoodsBean;
+import com.zjb.zjbbaseframework.common.vlayout.BaseDelegateAdapter;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;

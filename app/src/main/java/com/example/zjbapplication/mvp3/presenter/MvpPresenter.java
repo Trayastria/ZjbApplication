@@ -1,8 +1,7 @@
 package com.example.zjbapplication.mvp3.presenter;
 
-import com.example.zjbapplication.mvp3.base.IBasePresenter;
-import com.example.zjbapplication.mvp3.base.IBaseView;
 import com.example.zjbapplication.mvp3.view.MvpView;
+import com.zjb.zjbbaseframework.common.mvp.IBasePresenter;
 
 /**
  * Created by zhaojiangbo on 2020/3/21 19:41
