@@ -34,4 +34,5 @@ dependencies {
     implementation ('com.alibaba.android:vlayout:1.2.8@aar') {
         transitive = true
     }
+    implementation("com.squareup.okhttp3:okhttp:4.4.0")
 }
