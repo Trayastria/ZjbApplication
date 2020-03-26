@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ll_contain"
     android:layout_width="match_parent"
@@ -41,6 +42,7 @@
             android:layout_height="wrap_content"
             android:text="stopService" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -52,6 +54,7 @@
             android:text="startIntentService" />
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -68,6 +71,7 @@
             android:layout_height="wrap_content"
             android:text="unbindService" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -84,13 +88,23 @@
             android:layout_height="wrap_content"
             android:text="handler1" />
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
+
         <Button
             android:id="@+id/button_net1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="网络请求" />
     </LinearLayout>
+
+    <com.example.zjbapplication.testvlayout.widget.MyCustomView
+        android:layout_width="@dimen/public_space_150px"
+        android:layout_height="@dimen/public_space_150px"
+        android:background="@color/public_color_2BA7E7"
+        app:custom_color="@color/colorPrimaryDark"
+        app:custom_height="@dimen/public_space_150px"
+        app:custom_width="@dimen/public_space_150px" />
 </LinearLayout>
